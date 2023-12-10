@@ -1,0 +1,222 @@
+.html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Rubik", "Arial", sans-serif;
+  
+}
+
+img {
+  max-width:100%;
+  height: auto;
+}
+
+*:focus {
+  outline: 0;
+  box-shadow:0 0 0 4px rgba(41, 80, 147, 0.4);
+}
+
+.background-image {
+  position:absolute;
+  align-items:center;
+  width: 1920px;
+  height: 849px;
+
+}
+/* SITE-HEADER */
+.page__body {
+display: flex;
+}
+
+.site-header {
+  /* display: flex; */
+  margin: 0 480px;
+  
+}
+
+.logo {
+  display: block;
+  align-items:center;
+  width: 175px;
+  height: 86px;
+}
+
+.site-header__top {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.site-header__list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-header__list-item {
+  font-size: 16px;
+  font-family: Manrope;
+  font-weight: bold;
+  color:#fff;
+  list-style-type: none;
+}
+
+.site-header__phone {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.site-header__list-item:not(:last-child) {
+  padding-right: 27px;
+}
+
+.site-header__call {
+  margin-left: 15px;
+  padding: 0px 27px;
+  border-radius: 5px;
+  font-weight: bold;
+  color:#000;
+  background-color: #5BBFC8;
+  text-decoration: none;
+}
+
+.site-header__main-text{
+  position: relative;
+  color:#fff;
+  width: 905px; 
+  margin-right: 153px;
+  /* padding-bottom: 40px; */
+}
+.site-header__main {
+  font-size: 64px;
+  margin: 0;
+  margin-top: 78px;
+  font-weight: bold;
+  padding-bottom: 26px;
+}
+
+.site-header__text {
+  font-size: 18px;
+  margin-top: 9px;
+  margin-right: 430px;
+}
+
+.site-header__ybutton {
+  display: inline-flex;
+  position: relative;
+  padding: 10px 18px;
+  background-color:#FFD200;
+  border-radius:5px;
+  list-style-type: none;
+  align-items:center
+}
+
+.site-header__ybutton-text {
+  text-decoration: none;
+  color:#000;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.site-header__ybutton--icon {
+  margin-left: 18px;
+}
+
+.servise {
+  position: relative;
+  display: flex;
+  margin-top: 84px;
+  list-style-type: none;
+}
+
+.item_tire{
+  margin-right: 11px;
+  border-radius:5px;
+  width: 412px;
+  height: 287px;
+  background-image:linear-gradient(to top, #eeeef7ba, #dedbdb), url("/img/mob_remont.svg");
+  text-align:left;
+  /* object-fit: cover; */
+  /* object-position: center top; */
+}
+
+
+.item_sedan {
+  background-color:#FFD300;
+  width: 203px;
+  height: 287px;
+}
+
+.item_jeep {
+  background-color:#4B5257;
+  width: 203px;
+  height: 287px;
+  color:#fff;
+}
+
+.item_truck {
+  background-color:#5BBFC8;
+  width: 203px;
+  height: 287px;
+}
+
+.h-text {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.just-text {
+  content:"";
+  border-bottom: 8px solid #171717;
+  border-radius:5px;
+  padding-left: 24px;
+  margin-top: 0;
+  margin-left: 24px;
+  width: 100px;
+}
+
+.t-text {
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.service-cost {
+  font-size: 16px;
+  padding-top: 5px ;
+  text-align: center;
+  width: 78px;
+  height: 25px;
+  background-color:#b8bbbd;
+  border-radius:5px;  
+}
+
+.servise__item {
+  font-size: 19px;
+  border-radius:5px;
+  margin-right: 11px;
+  padding-left: 17px;
+}
+
+.car {
+  position: absolute;
+  bottom: 0;
+}   
