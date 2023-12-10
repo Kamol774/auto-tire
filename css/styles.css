@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   height: 100%;
   font-family: "Rubik", "Arial", sans-serif;
+  background-color:#F6F4F4;
   
 }
 
@@ -38,9 +39,17 @@ display: flex;
 }
 
 .site-header {
-  /* display: flex; */
-  margin: 0 480px;
-  
+  width: 1058px;
+  margin: 0 430px;  
+}
+
+.site-header__top {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 16px;
 }
 
 .logo {
@@ -48,14 +57,6 @@ display: flex;
   align-items:center;
   width: 175px;
   height: 86px;
-}
-
-.site-header__top {
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
-  margin-top: 16px;
-  align-items: center;
 }
 
 .site-header__list {
@@ -118,6 +119,7 @@ display: flex;
   display: inline-flex;
   position: relative;
   padding: 10px 18px;
+  margin-top: 35px;
   background-color:#FFD200;
   border-radius:5px;
   list-style-type: none;
@@ -138,7 +140,9 @@ display: flex;
 .servise {
   position: relative;
   display: flex;
-  margin-top: 84px;
+  width: 1058px;
+  padding-left: 0;
+  margin-top: 54px;
   list-style-type: none;
 }
 
@@ -220,3 +224,213 @@ display: flex;
   position: absolute;
   bottom: 0;
 }   
+
+.legal {
+  text-align:center;
+}
+
+.legal-title{
+  font-size: 45px;
+  margin: 0;
+  margin-top: 85px;
+}
+
+.legal-text {
+  display: inline-flex;
+  align-items:center;
+  font-size: 22px;
+  list-style-type:none;
+  padding: 0;
+  margin: -10px;
+}
+
+.legal-sale h4{
+  background-color:#FFD300;
+  width: 100px;
+  line-height: 41px;
+  border-radius:5px;
+  margin-right: 10px;
+}
+
+.img-application {
+  display:flex;
+  margin-top: 20px;
+  width: 1920px;
+}
+
+.img-app {
+  padding: 0;
+  margin: 0;
+  width: 979px;
+  height: 569px;
+}
+
+.application-list {
+  font-size: 22px;
+  font-weight: bold;
+  list-style-type:none;
+}
+ 
+.application-item {
+  border-left: 5px solid #000;
+  border-radius: 5px;
+  line-height: 45px;
+  padding-left: 15px;
+  margin: 10px;
+}
+
+.app-form {
+  display: flex;
+  align-items:center; 
+  margin-left: 95px;
+  margin-top: 55px;
+  flex-direction:column;
+  font-size: 14px;
+  margin-bottom: 55px;
+}
+
+.input-number {
+  margin-top: 24px;
+  width: 350px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  line-height: 66px;
+  border: 0;
+  border-radius:5px;
+}
+
+.submit {
+  margin-top: 24px;
+  background-color:#FFD300;
+  width: 250px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 66px;
+  border-radius:5px;
+  border: 0;
+}
+
+.main-content {
+  text-align: center;
+  height: 965px;
+}
+
+.background-main-img {
+  position: absolute;
+  display: block;
+  opacity: 30%;
+}
+
+.second-main {
+  margin-left:400px;  
+  width: 1070px;
+  text-align: center;
+}
+
+.second-topic { 
+  margin-top: 94px;
+  font-size: 45px;
+  padding: 0;
+}
+
+.main-points-list {
+  display: flex;
+  width: 1120px;
+  margin-top: 163px;
+  justify-content:space-between;
+}
+
+.main-points-list1,
+.main-points-list2 {
+  text-align: start;
+  list-style-type: none;
+}
+
+.main-points-item {
+  flex-wrap: wrap;
+  width: 256px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100px;
+}
+
+.tire-key {
+  position: relative;
+  display: flex;
+  width: 333px;
+  height: 394px;
+  transform: translateX(120%) translateY(-100%);
+}
+
+.application2 {
+  text-align: center;
+  width: 1920px;
+  height: 483px;
+  background-color:#FFD300;  
+}
+
+.application-title {
+  font-size: 45px;
+  padding-top: 128px;
+}
+
+.application-form {
+  display: inline-block;
+  text-align: center;
+}
+
+.label {
+  padding: 0;
+  margin-right: 400px;
+  margin-bottom: -20px;
+}
+
+.submit-dark {
+  margin-top: 24px;
+  background-color:#000;
+  color:#fff;
+  width: 250px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 66px;
+  border-radius:5px;
+  border: 0;
+}
+
+.additional {
+  display: block;
+  width: 1920px;
+  height: 733px;
+}
+
+.additional-topic {
+  margin-top: 94px;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.additional-img-list {
+  display:flex;
+  flex-wrap: wrap;
+  width: 900px;
+  text-align: inherit;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.additional-img {
+  text-align: center;
+  margin-bottom: 118px;
+}
+
+.additional-list {
+  text-align: start;
+  line-height: 35px;
+}
+
+.additional-item {
+  font-size: 22px;
+  font-weight: bold;
+}
