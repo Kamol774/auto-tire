@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,15 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body class="page__body">
   <img class="background-image" src="/img/backgroun_main.png">
- 
 
-  <!-- SITE-HEADER -->  
+
+  <!-- SITE-HEADER -->
   <header class="site-header">
     <!-- SITE-HEADER-TOP -->
-    <div class="site-header__top">  
+    <div class="site-header__top">
       <a class="logo" href="index.html">
         <img src="/img/logo.svg" srcset="/img/logo.svg 1x, /img/logo.svg@2x.png 2x" width="175" height="86">
       </a>
@@ -39,120 +41,281 @@
         <p>Заказать звонок</p>
       </a>
     </div>
-      <!-- MAIN CONTENT -->
-      <div class="site-header__main-text">
-        <p class="site-header__main">МОБИЛЬНЫЙ ШИНОМОНТАЖ №1</p>
-        <p class="site-header__text">В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по типоразмеру, так и по марке авто</p>
-      </div>
-      <ul class="site-header__ybutton">
-        <li><a class="site-header__ybutton-text" href="https://tme.to/khalilov93">Вызвать шиномонтаж</a></li>
-        <li><img class="site-header__ybutton--icon" src="/img/racing.png"></li>
-      </ul>
+    <!-- MAIN CONTENT -->
+    <div class="site-header__main-text">
+      <p class="site-header__main">МОБИЛЬНЫЙ ШИНОМОНТАЖ №1</p>
+      <p class="site-header__text">В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор
+        осуществляется как по типоразмеру, так и по марке авто</p>
+    </div>
+    <ul class="site-header__ybutton">
+      <li><a class="site-header__ybutton-text" href="https://tme.to/khalilov93">Вызвать шиномонтаж</a></li>
+      <li><img class="site-header__ybutton--icon" src="/img/racing.png"></li>
+    </ul>
 
-      <ul class="servise">
-        <li class="item_tire">
-          <h4 class="h-text">МОБИЛЬНЫЙ РЕМОНТ И ЗАМЕНА КОЛЕС</h4>
-          <h4 class="just-text"></h4>
-          <p class="t-text">Услуги выездного шиномонтажа в СПб и ЛО для транспортных средств</p>
+    <ul class="servise">
+      <li class="item_tire">
+        <h4 class="h-text">МОБИЛЬНЫЙ РЕМОНТ И ЗАМЕНА КОЛЕС</h4>
+        <h4 class="just-text"></h4>
+        <p class="t-text">Услуги выездного шиномонтажа в СПб и ЛО для транспортных средств</p>
+      </li>
+      <li class="servise__item item_sedan">
+        <p class="service-cost">от 199₽</p>
+        <h4>Легковые авто</h4>
+        <img class="car" src="/img/sedan.png" width="108" height="108">
+      </li>
+      <li class="servise__item item_jeep">
+        <p class="service-cost">от 299₽</p>
+        <h4>Кроссоверы, джипы, минивены</h4>
+        <img class="car" src="/img/jeep.png" width="108" height="108">
+      </li>
+      <li class="servise__item item_truck">
+        <p class="service-cost">от 399₽</p>
+        <h4>Коммерческий транспорт</h4>
+        <img class="car" src="/img/truck.png" width="108" height="108">
+      </li>
+    </ul>
+
+    <div class="legal">
+      <h2 class="legal-title">Для юридических лиц</h2>
+      <ul class="legal-text">
+        <li class="legal-sale">
+          <h4>Акция!</h4>
         </li>
-        <li class="servise__item item_sedan">
-          <p class="service-cost">от 199₽</p>
-          <h4>Легковые авто</h4>
-          <img class="car" src="/img/sedan.png" width="108" height="108">
-        </li>
-        <li class="servise__item item_jeep">
-          <p class="service-cost">от 299₽</p>
-          <h4>Кроссоверы, джипы, минивены</h4>
-          <img class="car" src="/img/jeep.png" width="108" height="108">
-        </li>
-        <li class="servise__item item_truck">
-          <p class="service-cost">от 399₽</p>
-          <h4>Коммерческий транспорт</h4>
-          <img class="car" src="/img/truck.png" width="108" height="108">
+        <li class="legal-sale-text">
+          <h4>Первое авто бесплатно!</h4>
         </li>
       </ul>
-
-      <div class="legal">
-        <h2 class="legal-title">Для юридических лиц</h2>
-        <ul class="legal-text">
-          <li class="legal-sale"><h4>Акция!</h4></li>
-          <li class="legal-sale-text"><h4>Первое авто бесплатно!</h4></li>
-        </ul>
-      </div>
+    </div>
   </header>
-      
-    <div class="img-application">
-      <img class="img-app" src="/img/cars.svg" width="979" height="569">
-      <div class="application">
-        <ul class="application-list">
-          <li class="application-item">Работа с НДС</li>
-          <li class="application-item">Комплексное обслуживание автопарков</li>
-          <li class="application-item">Заключение договора</li>
-          <li class="application-item">Оплата после выполнения работ</li>
+
+  <div class="img-application">
+    <img class="img-app" src="/img/cars.svg" width="979" height="569">
+    <div class="application">
+      <ul class="application-list">
+        <li class="application-item">Работа с НДС</li>
+        <li class="application-item">Комплексное обслуживание автопарков</li>
+        <li class="application-item">Заключение договора</li>
+        <li class="application-item">Оплата после выполнения работ</li>
+      </ul>
+      <form class="app-form">Ваш телефон
+        <label>
+          <input class="input-number" id="" type="number" placeholder="+998(_ _) _ _ _-_ _-_ _">
+        </label>
+        <button class="submit" type="submit">Оформить заявку</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <img class="background-main-img" src="/img/main.svg">
+    <section class="second-main">
+      <h2 class="second-topic">Преимущества мобильного<br>шиномонтажа</h2>
+      <div class="main-points-list">
+        <ul class="main-points-list1">
+          <li class="main-points-item">Онлайн запись</li>
+          <li class="main-points-item">Бесконтактное обслуживание</li>
+          <li class="main-points-item">Сертифицированное оборудование и мастера</li>
+          <li class="main-points-item">Гарантия на все виды работ 365 дней</li>
         </ul>
-        <form class="app-form">Ваш телефон
-          <label>
-            <input class="input-number" id="" type="number" placeholder="+998(_ _) _ _ _-_ _-_ _">
-          </label>
-          <button class="submit" type="submit">Оформить заявку</button>
-        </form>
+        <ul class="main-points-list2">
+          <li class="main-points-item">Все типы оплат</li>
+          <li class="main-points-item">Без очередей</li>
+          <li class="main-points-item">В удобном месте</li>
+          <li class="main-points-item">В удобном месте</li>
+        </ul>
+      </div>
+      <img class="tire-key" src="/img/tire-key.png">
+    </section>
+  </div>
+
+  <div>
+    <div class="application2">
+      <h2 class="application-title">МОБИЛЬНЫЙ ШИНОМОНТАЖ<br>24 ЧАСА В СУТКИ</h2>
+      <form class="application-form">
+        <p class="label">Ваш телефон</p>
+        <label>
+          <input class="input-number" id="" type="number" placeholder="+998(_ _) _ _ _-_ _-_ _">
+        </label>
+        <button class="submit-dark" type="submit">Оформить заявку</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="additional">
+    <h2 class="additional-topic">Дополнительные работы</h2>
+    <section class="additional-img-list">
+      <img class="additional-img" src="/img/additional-img.png">
+      <ul class="additional-list">
+        <li class="additional-item">Сезонное хранение шин</li>
+        <li class="additional-item">Ремонт шин и дисков</li>
+        <li class="additional-item">Снятие секреток</li>
+        <li class="additional-item">Ошиповка</li>
+        <li class="additional-item">Покраска дисков</li>
+        <li class="additional-item">Утилизация шин</li>
+        <li class="additional-item">Заправка кондиционера</li>
+        <li class="additional-item">Запуск авто в зимнее время</li>
+        <li class="additional-item">Trade in шин</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="map">
+    <div class="left-img">
+      <img class="bg-dark" src="/img/bg.png" alt="">
+    </div>
+    <div class="bg-text">
+      <h3 class="bg-theme">Карта покрытия мобильного шиномонтажа</h3>
+      <p class="bg-note">Зона покрытия</p>
+    </div>
+    <div class="bg-light">
+      <img class="bg-light" src="/img/sankpiter.png" alt="">
+    </div>
+  </div>
+
+  <div class="costs">
+    <div class="cost-tires">
+      <div class="cost-title">ЦЕНЫ НА МОБИЛЬНЫЙ ШИНОМОНТАЖ</div>
+      <div class="slidecontainer">
+        <p class="size-tire">Выберите Ø колёс</p>
+        <h1 class="slider-items">R 13-15 &nbsp &nbsp R 16 &nbsp &nbsp R 17 &nbsp &nbsp R 18 &nbsp &nbsp R 19 &nbsp &nbsp R 20 &nbsp &nbsp R 21-22</h1>
+        <input type="range" min="1" max="7" value="50" class="slider" id="myRange">
       </div>
     </div>
 
-    <div class="main-content">
-      <img class="background-main-img" src="/img/main.svg">
-      <section class="second-main">
-        <h2 class="second-topic">Преимущества мобильного<br>шиномонтажа</h2>
-        <div class="main-points-list">
-          <ul class="main-points-list1">
-            <li class="main-points-item">Онлайн запись</li>
-            <li class="main-points-item">Бесконтактное обслуживание</li>
-            <li class="main-points-item">Сертифицированное оборудование и мастера</li>
-            <li class="main-points-item">Гарантия на все виды работ 365 дней</li>
-          </ul>  
-          <ul class="main-points-list2">
-            <li class="main-points-item">Все типы оплат</li>
-            <li class="main-points-item">Без очередей</li>
-            <li class="main-points-item">В удобном месте</li>
-            <li class="main-points-item">В удобном месте</li>
-          </ul>
-        </div>
-        <img class="tire-key" src="/img/tire-key.png">
-      </section>
+    <div class="cost-table">
+      <table class="cost-list">
+        <tr>
+          <td class="set">Снятие и установка колеса</td>
+          <td class="price">120 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Демонтаж/монтаж шины</td>
+          <td class="price">120 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Балансировка колеса с учетом грузиков </td>
+          <td class="price">105 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Установка клапана резинового </td>
+          <td class="price">30 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Установка клапана металлического </td>
+          <td class="price">50 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Установка одного датчика давления </td>
+          <td class="price">200 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Очистка и смазка ступицы, шпилек/болтов </td>
+          <td class="price">100 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Ремонт камеры (одно повреждение) </td>
+          <td class="price">350 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Ремонт прокола жгутом </td>
+          <td class="price">300-600 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Ремонт прокола грибком</td>
+          <td class="price">500-700 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Ремонт бокового пореза шины </td>
+          <td class="price">600-1400 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Утилизация шины </td>
+          <td class="price">400 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Коэф. для внедорожников и низкопрофильной резины </td>
+          <td class="price">400 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Выезд шиномонтажа (день/ночь) </td>
+          <td class="price">500/800 ₽</td>
+        </tr>
+        <tr>
+          <td class="set">Дополнительно оплачивается выезд за КАД</td>
+          <td class="price">500/800 ₽</td>
+        </tr>
+      </table>
+    </div>
+    <ul class="site-header__ybutton cost-footer">
+      <li><a class="site-header__ybutton-text" href="https://tme.to/khalilov93">Вызвать шиномонтаж</a></li>
+      <li><img class="site-header__ybutton--icon" src="/img/racing.png"></li>
+    </ul>
+  </div>
+
+  <div class="review-recommendation">
+    <h2 class="review-rec">Отзывы и рекомендации</h2>
+    <div class="content">
+      <ul class="rec-list">
+        <li class="rec-item">
+          <img class="img-item" src="/img/cars.svg" width="520" height="255">
+          <h4 class="name">Company's name</h4>
+          <p class="position">specialist</p>
+        </li>
+        <li class="rec-item">
+          <img class="img-item" src="/img/cars.svg" width="520" height="255">
+          <h4 class="name">Company's name</h4>
+          <p class="position">specialist</p>
+        </li>
+        <li class="rec-item">
+          <img class="img-item" src="/img/cars.svg" width="520" height="255">
+          <h4 class="name">Company's name</h4>
+          <p class="position">specialist</p>
+        </li>
+        <li class="rec-item">
+          <img class="img-item" src="/img/cars.svg" width="520" height="255">
+          <h4 class="name">Company's name</h4>
+          <p class="position">specialist</p>
+        </li>
+      </ul>
     </div>
 
-    <div>
-      <div class="application2">
-        <h2 class="application-title">МОБИЛЬНЫЙ ШИНОМОНТАЖ<br>24 ЧАСА В СУТКИ</h2>
-        <form class="application-form">
-          <p class="label">Ваш телефон</p>
-          <label>
-            <input class="input-number" id="" type="number" placeholder="+998(_ _) _ _ _-_ _-_ _">
-          </label>
-          <button class="submit-dark" type="submit">Оформить заявку</button>
-        </form>
-      </div>
+    <div class="sponsors">
+      <h2 class="sponsors-title">Наши партнеры</h2>
+      <ul class="sponsors-list">
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-artel.png" alt="">
+        </li>
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-ozon.png" alt="">
+        </li>
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-esomia.png" alt="">
+        </li>
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-samsung.png" alt="">
+        </li>
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-uklon.png" alt="">
+        </li>
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-zalando.png" alt="">
+        </li>
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-samsung.png" alt="">
+        </li>
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-ozon.png" alt="">
+        </li>
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-artel.png" alt="">
+        </li>
+        <li class="sponsors-item">
+          <img class="sponsors-img" src="/img/icon-esomia.png" alt="">
+        </li>
+      </ul>
     </div>
-    
-    <div class="additional">
-      <h2 class="additional-topic">Дополнительные работы</h2>
-      <section class="additional-img-list">
-        <img class="additional-img" src="/img/additional-img.png">
-        <ul class="additional-list">
-          <li class="additional-item">Сезонное хранение шин</li>
-          <li class="additional-item">Ремонт шин и дисков</li>
-          <li class="additional-item">Снятие секреток</li>
-          <li class="additional-item">Ошиповка</li>
-          <li class="additional-item">Покраска дисков</li>
-          <li class="additional-item">Утилизация шин</li>
-          <li class="additional-item">Заправка кондиционера</li>
-          <li class="additional-item">Запуск авто в зимнее время</li>
-          <li class="additional-item">Trade in шин</li>
-        </ul>
 
-      </section>
-    </div>
-    
+  </div>
 
 
 
@@ -160,6 +323,15 @@
 
 
 
+  <script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
 
+    slider.oninput = function () {
+      output.innerHTML = this.value;
+    }
+  </script>
 </body>
+
 </html>
