@@ -123,18 +123,31 @@ display: flex;
   background-color:#FFD200;
   border-radius:5px;
   list-style-type: none;
-  align-items:center
+  align-items:center;
+  cursor:pointer;
+  text-decoration: none;
 }
 
 .site-header__ybutton-text {
-  text-decoration: none;
   color:#000;
   font-size: 16px;
   font-weight: bold;
-
+  
 }
 .site-header__ybutton--icon {
   margin-left: 18px;
+}
+
+.bg-effect {
+  display: flex;
+  background-color:#04AA6D;
+  margin-top: -220px;
+}
+
+.bg-effect1, 
+.bg-effect2, 
+.bg-effect3{
+  transform: translateX(-450px) translateY(350px);  
 }
 
 .servise {
@@ -613,7 +626,7 @@ display: flex;
 }
 
 .sponsors-title{
-  display: flex;
+  text-align: center;
   font-size: 45px;
   margin-left: auto;
   margin-right: auto;
@@ -630,19 +643,94 @@ display: flex;
 }
 
 .sponsors-item {
-  display: block;
+  display: grid;
   width: 202px;
   height: 175px;
   margin-top: 15px;
   background-color:#fff;
-  /* display: inline; */
 }
-
 
 .sponsors-img{
-  display: block;
-  line-height: auto;  
+  justify-self: center;
   margin: auto;
-  /* vertical-align: baseline; */
-  
+  vertical-align:bottom;
 }
+
+.bg-picture{
+  position: absolute;
+  width: 1363px;
+  height: 466px;
+  transform: translateX(500px) translateY(-160px);
+  /* background-color:#04AA6D */
+}
+
+.footer {
+  position: relative;
+  width: 1920px;
+  height: 273px;
+  background-color:#000;
+  margin-top: 193px;
+}
+
+.footer-logo {
+  margin-left: 30px;
+}
+.footer_content{
+  width: 1070px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+}
+
+.footer-phone {
+  color:#FFD300;
+}
+
+.num {
+  display: flex;
+  align-items:center;
+  margin-right: 10px;
+}
+
+.num::before {
+  margin-right: 14px;
+  margin-left: 135px;
+  width: 13px;
+  height: 13px;
+  content: "";
+  background: url("/img/call.png") no-repeat center center / contain;
+}
+
+.insta_link {
+  display: flex;
+  cursor:pointer;
+}
+
+.site-footer__list1 {
+  margin-top: -30px;
+  margin-bottom: 30px;
+  justify-content: end;
+}
+
+.site-footer__call {
+  display: inline-block;
+  margin-left: 26px;
+  padding: 0px 27px;
+  border: 1px solid #FFD300;
+  border-radius: 5px;
+  font-weight: bold;
+  color:#FFD300;
+  text-decoration: none;
+}
+
+.line {
+  border-top: 1px solid #676363;
+}
+
+.last-comment {
+  color:#fff;
+  text-align: center;
+  margin-top: 9px;
+  align-items:center;
+}
+
